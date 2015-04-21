@@ -61,6 +61,7 @@
 
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
+		color:#000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -119,11 +120,16 @@
 	}
 
 	header p {
-		color: #999999;
 		font-size: 1.25em;
 		position: relative;
 		margin-top: -1.25em;
 		margin-bottom: 2.25em;
+		color:#000;
+		text-align: center;
+	}
+	header h2{
+		text-align: center;
+		margin: 0 0 2em 0;
 	}
 
 	header.major {
@@ -142,7 +148,6 @@
 			margin: 0;
 			top: -1em;
 			font-size: 1.5em;
-			letter-spacing: -0.025em;
 		}
 
 	footer {
@@ -706,7 +711,7 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../images/banner.jpg");
+		background-image: url("../images/banner-1.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
